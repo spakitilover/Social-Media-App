@@ -1,6 +1,6 @@
 .s-c {
   width: 350px;
-  height: auto;
+  height: 93vh;
   background-color: #e8e8e8;
   border-right: 2px solid #d1d1d1;
 }
@@ -62,7 +62,7 @@
 
 .s-b-w:hover {
   background-color: #d1d1d1;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .s-icon {
@@ -81,5 +81,5 @@
 
 .s-ww:hover {
   background-color: #d1d1d1;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
