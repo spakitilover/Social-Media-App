@@ -1,0 +1,78 @@
+.l-c {
+  height: 50vh;
+}
+
+.l-box {
+  padding: 30px;
+  width: 350px;
+  height: 50vh;
+}
+
+.l-infos-w {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.l-i-ww {
+  display: flex;
+  align-items: center;
+}
+
+.l-i-icon {
+}
+
+.infos-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: 10px;
+}
+
+.l-tits-c {
+}
+
+.l-tits {
+  color: #8c8c8c;
+}
+
+.l-friends-c {
+  margin-top: 20px;
+}
+
+.l-f-w {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.l-f-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-right: 10px;
+}
+.l-f-details {
+  display: flex;
+  align-items: center;
+}
+
+.add-icon:hover {
+  color: #8c8c8c;
+  transition: all 0.2s ease-in-out;
+}
+
+.l-hr-w {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.l-hr {
+  width: 90%;
+  border: 1px solid #d1d1d1;
+}

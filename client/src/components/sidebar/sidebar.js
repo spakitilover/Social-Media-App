@@ -12,36 +12,52 @@ const Sidebar = () => {
       <div className="s-w">
         <ul className="s-ul">
           <li className="s-li">
-            <Home
-              style={{
-                fontSize: "35px",
-              }}
-            />{" "}
-            Home
+            <div className="s-ww">
+              <Home
+                style={{
+                  fontSize: "35px",
+                  marginRight: "5px",
+                  marginLeft: "10px",
+                }}
+              />{" "}
+              Home
+            </div>
           </li>
           <li className="s-li">
-            <FavoriteBorder
-              style={{
-                fontSize: "35px",
-              }}
-            />{" "}
-            Favorites
+            <div className="s-ww">
+              <FavoriteBorder
+                style={{
+                  fontSize: "35px",
+                  marginRight: "5px",
+                  marginLeft: "10px",
+                }}
+              />{" "}
+              Favorites
+            </div>
           </li>
           <li className="s-li">
-            <AccountCircleOutlined
-              style={{
-                fontSize: "35px",
-              }}
-            />{" "}
-            Profile
+            <div className="s-ww">
+              <AccountCircleOutlined
+                style={{
+                  fontSize: "35px",
+                  marginRight: "5px",
+                  marginLeft: "10px",
+                }}
+              />{" "}
+              Profile
+            </div>
           </li>
           <li className="s-li">
-            <AddBoxOutlined
-              style={{
-                fontSize: "35px",
-              }}
-            />{" "}
-            Create
+            <div className="s-ww">
+              <AddBoxOutlined
+                style={{
+                  fontSize: "35px",
+                  marginRight: "5px",
+                  marginLeft: "10px",
+                }}
+              />{" "}
+              Create
+            </div>
           </li>
           <li className="s-li">
             <div className="s-li-w">

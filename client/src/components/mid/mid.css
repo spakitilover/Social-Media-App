@@ -1,0 +1,88 @@
+.mid-c {
+  background-color: #e8e8e8;
+  width: 60%;
+}
+
+.m-w {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.m-box-c {
+  width: 500px;
+  height: 800px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.m-box-user-info {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.box-user {
+  width: 100%;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.box-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.box-name {
+  margin-left: 10px;
+}
+
+.fav-icon {
+  display: flex;
+  align-items: center;
+}
+
+.box-icon {
+  margin-right: 10px;
+}
+
+.box-icon:hover {
+  margin-right: 10px;
+  color: crimson;
+  transition: all 0.2s ease-in-out;
+}
+
+.box-post-c {
+  height: 70%;
+}
+
+.box-details-c {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.box-details-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons-hover:hover {
+  color: crimson;
+  transition: all 0.2s ease-in-out;
+}
+
+.icons-2-hover:hover {
+  color: white;
+  transition: all 0.2s ease-in-out;
+}

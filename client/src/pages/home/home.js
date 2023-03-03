@@ -1,13 +1,19 @@
 import React from "react";
+import Leftbar from "../../components/leftbar/leftbar";
+import Mid from "../../components/mid/mid";
 import Navbar from "../../components/navbar/navbar";
 import Sidebar from "../../components/sidebar/sidebar";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navbar />
-      <Sidebar />
-    </div>
+      <div className="container">
+        <Sidebar />
+        <Mid />
+        <Leftbar />
+      </div>
+    </>
   );
 };
 
